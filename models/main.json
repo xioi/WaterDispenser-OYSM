@@ -49,31 +49,11 @@
 				{
 					"name": "LeftArm",
 					"parent": "Arm",
-					"pivot": [0, 0, 0],
+					"pivot": [0, 31, -6],
+					"rotation": [0, -90, 0],
 					"cubes": [
 						{
-							"origin": [-0.8, 11, 6],
-							"size": [1.6, 20, 1.6],
-							"pivot": [0, 28, 7],
-							"rotation": [0, -90, 0],
-							"uv": {
-								"north": {"uv": [24, 61], "uv_size": [2, 20]},
-								"east": {"uv": [26, 61], "uv_size": [2, 20]},
-								"south": {"uv": [28, 61], "uv_size": [2, 20]},
-								"west": {"uv": [9, 62], "uv_size": [2, 20]},
-								"up": {"uv": [50, 55], "uv_size": [2, 2]},
-								"down": {"uv": [62, 11], "uv_size": [2, -2]}
-							}
-						}
-					]
-				},
-				{
-					"name": "RightArm",
-					"parent": "Arm",
-					"pivot": [0, 0, 0],
-					"cubes": [
-						{
-							"origin": [-0.8, 11, -7.6],
+							"origin": [-1.6, 11, -7.6],
 							"size": [1.6, 20, 1.6],
 							"uv": {
 								"north": {"uv": [11, 62], "uv_size": [2, 20]},
@@ -87,19 +67,42 @@
 					]
 				},
 				{
+					"name": "RightArm",
+					"parent": "Arm",
+					"pivot": [0, 31, 6.6],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [-1, 11, 6.6],
+							"size": [1.8, 20, 1.6],
+							"pivot": [0, 28, 7.6],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [24, 61], "uv_size": [2, 20]},
+								"east": {"uv": [26, 61], "uv_size": [2, 20]},
+								"south": {"uv": [28, 61], "uv_size": [2, 20]},
+								"west": {"uv": [9, 62], "uv_size": [2, 20]},
+								"up": {"uv": [50, 55], "uv_size": [2, 2]},
+								"down": {"uv": [62, 11], "uv_size": [2, -2]}
+							}
+						}
+					]
+				},
+				{
 					"name": "AllHead",
 					"parent": "UpperBody",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 34, 0],
+					"rotation": [0, 90, 0]
 				},
 				{
 					"name": "MHead",
 					"parent": "AllHead",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 34, 0]
 				},
 				{
 					"name": "Head",
 					"parent": "MHead",
-					"pivot": [0, 0, 0],
+					"pivot": [0, 34, 0],
 					"cubes": [
 						{
 							"origin": [-3.2, 33.9, -3.1],
