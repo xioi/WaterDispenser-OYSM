@@ -18,18 +18,19 @@
 				{
 					"name": "MAllBody",
 					"parent": "Root",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 0, 0],
+					"rotation": [0, 90, 0]
 				},
 				{
 					"name": "AllBody",
 					"parent": "MAllBody",
-					"pivot": [0, 0, 0],
-					"rotation": [0, -90, 0]
+					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "UpBody",
 					"parent": "AllBody",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0]
 				},
 				{
 					"name": "MUpperBody",
