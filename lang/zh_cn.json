@@ -1,0 +1,19 @@
+{
+	"metadata.name": "饮水机",
+	"metadata.tips": "天津XXX科技发展有限公司制造",
+	"metadata.authors.0.name": "y0r3ipu3ww0c",
+	"metadata.authors.0.role": "作者",
+	"metadata.authors.0.comment": "Mac用户, 苹果全家桶持有者; 现已美美游玩YSM",
+	"properties.extra_animation.extra0": "诹访大舞",
+	"properties.extra_animation.extra1": "挥手",
+	"properties.extra_animation.extra2": "拍手",
+	"properties.extra_animation.extra3": "YES",
+	"properties.extra_animation.extra4": "NO",
+	"properties.extra_animation.extra5": "耶",
+	"properties.extra_animation.extra6": "摆手",
+	"properties.extra_animation.extra7": "跳舞",
+	"properties.extra_animation_buttons.extra_config.config_forms.0.title": "头饰",
+	"properties.extra_animation_buttons.extra_config.config_forms.0.description": "用来显示或开启玩家头饰",
+	"files.player.texture.default": "默认",
+	"files.player.texture.blue": "蓝色"
+}
