@@ -68,6 +68,27 @@
 					]
 				},
 				{
+					"name": "LeftHand",
+					"parent": "LeftArm",
+					"pivot": [-0.875, 12.575, 0.025],
+					"rotation": [0, 0, 0]
+				},
+				{
+					"name": "LeftHandLocator",
+					"parent": "LeftHand",
+					"pivot": [-0.875, 12.575, 0.025]
+				},
+				{
+					"name": "SheathLocator",
+					"parent": "LeftHand",
+					"pivot": [-0.875, 12.575, -0.075]
+				},
+				{
+					"name": "LeftWaistLocator",
+					"parent": "LeftHand",
+					"pivot": [-0.875, 12.575, -0.075]
+				},
+				{
 					"name": "RightArm",
 					"parent": "Arm",
 					"pivot": [0, 31, 6.6],
@@ -88,6 +109,22 @@
 							}
 						}
 					]
+				},
+				{
+					"name": "RightHand",
+					"parent": "RightArm",
+					"pivot": [0.275, 12.075, 7.525],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "RightHandLocator",
+					"parent": "RightHand",
+					"pivot": [0.275, 12.075, 7.725]
+				},
+				{
+					"name": "BladeLocator",
+					"parent": "RightHand",
+					"pivot": [0.275, 11.675, 7.725]
 				},
 				{
 					"name": "AllHead",
